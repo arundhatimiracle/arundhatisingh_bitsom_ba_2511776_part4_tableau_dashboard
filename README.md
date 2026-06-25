@@ -47,7 +47,7 @@
 
 The objective of this task was to create different Tableau worksheets to understand sales data from multiple perspectives. Each sheet focuses on a different business aspect such as sales, profit, customer segments, shipping performance, discounts, and returns.
 
-## Work Completed
+# Work Completed
 
 ### Sales Trend View
 Created a line chart using Order Date and Sales to observe how sales changed over different months.
@@ -73,3 +73,19 @@ Created a bar chart using the calculated Return Rate field to compare product re
 ## Conclusion
 
 All the required Tableau worksheets were created successfully. These visualizations provide useful insights into sales performance, profitability, customer behavior, shipping efficiency, and product returns. These sheets will be used together in the dashboard created in the next task.   
+
+
+## Task 4 – Use Appropriate Chart Types
+
+The aim of this task was to use chart types that best represent the business questions and make the dashboard easy to understand.
+
+## Work Done
+
+- Used a line chart to show the sales trend over time.
+- Used horizontal bar charts to compare regional performance, category profitability, customer segments, shipping performance, and return analysis.
+- Used a scatter plot to study the relationship between discount and profit.
+- Chose each chart based on the type of information being presented so that the insights are clear and meaningful.
+
+## Conclusion
+
+All visualizations use suitable chart types according to the business requirement. The charts help compare values, identify trends, and understand relationships within the data.
