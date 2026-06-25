@@ -1,31 +1,87 @@
 # Chart Selection Justification
 
-## KPI Cards
-KPI cards are used to display Total Sales, Total Profit, and Average Delivery Days. They provide a quick overview of important business metrics.
+## 1. Sales Trend View
 
-## Sales Trend View
-A line chart is used because it clearly shows how sales change over time and helps identify trends across months.
+**Question Answered:** How do sales change over time?
 
-## Regional Performance View
-A horizontal bar chart is used to compare sales and profit across different regions. Bar charts make comparisons easy.
+**Why this chart type is appropriate:** A line chart clearly shows monthly sales trends and highlights increases or decreases over time.
 
-## Customer Segment View
-A bar chart compares sales and profit among different customer segments, making it simple to identify the best-performing segment.
+**Fields Used:**
+- X-axis: Order Date (Month)
+- Y-axis: Sales
+- Filter: Region, Category, Customer Segment
 
-## Shipping Performance View
-A horizontal bar chart compares average delivery days for different shipping modes.
+**Design Principle Applied:** Simple layout, clear labels, and consistent color for easy trend analysis.
 
-## Return Analysis View
-A horizontal bar chart compares return rates across product categories, helping identify categories with higher returns.
+**Mistake Avoided:** Did not use a bar chart, which is less effective for showing trends over time.
 
-## Design Principles
+---
 
-- Correct chart selection for each business question.
-- Clear hierarchy with KPI cards at the top.
-- Minimal clutter and clean layout.
-- Consistent color usage across charts.
-- Proper labels and readable titles.
-- Sorted charts for easy comparison.
-- Interactive filters for Region, Category, and Customer Segment.
-- Accurate scales without misleading visuals.
-- Dashboard focuses on business insights and decision-making.
+## 2. Regional Performance View
+
+**Question Answered:** Which regions generate the highest sales and profit?
+
+**Why this chart type is appropriate:** Horizontal bar charts make it easy to compare performance across regions.
+
+**Fields Used:**
+- Rows: Region
+- Columns: Sales and Profit
+- Color: Region
+- Filter: Region
+
+**Design Principle Applied:** Bars are sorted for quick comparison with consistent color usage.
+
+**Mistake Avoided:** Avoided pie charts because they are difficult to compare accurately.
+
+---
+
+## 3. Customer Segment View
+
+**Question Answered:** Which customer segment contributes the most sales and profit?
+
+**Why this chart type is appropriate:** Bar charts allow clear comparison between customer segments.
+
+**Fields Used:**
+- Rows: Customer Segment
+- Columns: Sales and Profit
+- Color: Customer Segment
+- Filter: Customer Segment
+
+**Design Principle Applied:** Simple comparison with readable labels and consistent formatting.
+
+**Mistake Avoided:** Avoided unnecessary colors and visual clutter.
+
+---
+
+## 4. Shipping Performance View
+
+**Question Answered:** Which shipping mode has the highest average delivery time?
+
+**Why this chart type is appropriate:** Horizontal bars make delivery time comparisons easy.
+
+**Fields Used:**
+- Rows: Ship Mode
+- Columns: Average Delivery Days
+- Color: Ship Mode
+
+**Design Principle Applied:** Sorted values improve readability.
+
+**Mistake Avoided:** Did not use line charts because shipping modes are categories, not time series.
+
+---
+
+## 5. Return Analysis View
+
+**Question Answered:** Which product category has the highest return rate?
+
+**Why this chart type is appropriate:** Bar charts clearly compare return rates across categories.
+
+**Fields Used:**
+- Rows: Category
+- Columns: Return Rate
+- Color: Category
+- Filter: Category
+
+**Design Principle Applied:** Minimal clutter with consistent colors and readable labels.
+
+**Mistake Avoided:** Avoided 3D charts and unnecessary formatting that could mislead interpretation.
