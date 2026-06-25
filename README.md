@@ -89,3 +89,84 @@ The aim of this task was to use chart types that best represent the business que
 ## Conclusion
 
 All visualizations use suitable chart types according to the business requirement. The charts help compare values, identify trends, and understand relationships within the data.
+
+
+# Executive Sales Dashboard
+
+## Task 5: Interactive Dashboard
+
+An Executive Sales Dashboard was created in Tableau by combining multiple worksheets into a single interactive dashboard. The dashboard includes KPI cards for Total Sales, Total Profit, and Average Delivery Days, along with visualizations for Sales Trend, Regional Performance, Customer Segment, Shipping Performance, and Return Analysis. Interactive filters for Region, Category, and Customer Segment were added so that all charts update dynamically.
+
+
+## Task 6: Visualization Design Principles
+
+The dashboard follows visualization best practices:
+- Appropriate chart selection for each business question.
+- Clear visual hierarchy with KPI cards placed at the top.
+- Minimal visual clutter.
+- Consistent color usage across charts.
+- Clear titles and labels.
+- Sorted charts for easier comparison.
+- Interactive filters for better analysis.
+- Accurate scales without misleading visuals.
+- Dashboard designed for business decision-making.
+
+
+## Task 7: Required Screenshots
+
+The following screenshots were captured and included:
+- Full Executive Dashboard
+- Sales Trend View
+- Regional Performance View
+- Category Profitability View
+- Filter Interaction View
+
+All screenshots are stored in the `screenshots` folder.
+
+
+## Task 8: Business Insights
+
+Business insights were documented in `outputs/business_insights.md`.
+
+The insights cover:
+- Sales trend
+- Regional performance
+- Category profitability
+- Customer segment behavior
+- Discount impact
+- Shipping performance
+- Return pattern
+- Business risks and opportunities
+
+Each insight includes:
+- Observation
+- Data evidence
+- Business interpretation
+- Recommended action
+
+
+## Task 9: Dashboard Story
+
+A leadership-focused dashboard story was created in `outputs/dashboard_story.md`.
+
+The story includes:
+- Executive summary
+- Business strengths
+- Underperforming areas
+- Risks
+- Opportunities
+- Recommended business actions
+- Dashboard limitations
+- Suggested future analysis
+
+
+## Task 10: Chart Selection Justification
+
+Chart selection justification was documented in `outputs/chart_selection_justification.md`.
+
+For each major chart, the document explains:
+- The business question answered
+- Why the chart type was selected
+- Fields used for color, labels, and filters
+- Design principles applied
+- Common visualization mistakes avoided
